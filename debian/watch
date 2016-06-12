@@ -1,0 +1,5 @@
+# You must remove unused comment lines for the released package.
+version=3
+
+opts="filenamemangle=s/(?:.*?)?v?(\d[\d.]*)\.tar\.gz/profile-sync-daemon-$1.tar.gz/" \
+https://github.com/graysky2/profile-sync-daemon/tags (?:.*?/)?v?(\d[\d.]*)\.tar\.gz
