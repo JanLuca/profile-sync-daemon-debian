@@ -1,0 +1,3 @@
+This package provides "systemctl --user" systemd services files. It is expected that systemd/logind managed user session are used if the tool should be used out-of-the-box.
+
+If this kind of user sessions is not used the user have to call "psd resync" at login and "psd unsync" at logout time using another method themself.
