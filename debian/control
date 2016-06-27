@@ -10,8 +10,8 @@ Vcs-Browser: https://github.com/JanLuca/profile-sync-daemon-debian
 
 Package: profile-sync-daemon
 Architecture: all
-Depends: libpam-systemd, rsync, ${misc:Depends}
-Recommends: systemd-sysv
+Depends: rsync, ${misc:Depends}
+Suggests: libpam-systemd, systemd-sysv
 Description: Symlinks and syncs browser profile dirs into RAM
  Profile-sync-daemon (psd) is a tiny pseudo-daemon designed
  to manage your browsers profile in tmpfs and periodically
