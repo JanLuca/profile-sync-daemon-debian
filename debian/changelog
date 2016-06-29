@@ -1,4 +1,4 @@
-profile-sync-daemon (6.23-1) UNRELEASED; urgency=medium
+profile-sync-daemon (6.23-1) unstable; urgency=low
 
   * New upstream release.
   * Use upstream-provided manpage doc/psd-overlay-helper.1.
