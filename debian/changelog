@@ -1,3 +1,9 @@
+profile-sync-daemon (6.25-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Jan Luca Naumann <j.naumann@fu-berlin.de>  Sat, 09 Jul 2016 17:10:08 +0200
+
 profile-sync-daemon (6.23-1) unstable; urgency=low
 
   * New upstream release.
