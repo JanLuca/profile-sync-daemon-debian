@@ -1,3 +1,6 @@
+profile-sync-daemon for Debian
+------------------------------
+
 This package provides "systemctl --user" systemd services files. It is  expected that
 systemd/logind-managed user session is used if the tool is supposed to work out-of-the-box.
 
