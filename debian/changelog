@@ -1,3 +1,11 @@
+profile-sync-daemon (6.25-2) unstable; urgency=medium
+
+  * debian/patches:
+    - Add fix-bash-4.4-substitution.patch to fix
+      string substitution issue with bash 4.4. (Closes: #839049)
+
+ -- Jan Luca Naumann <j.naumann@fu-berlin.de>  Thu, 29 Sep 2016 17:19:11 +0200
+
 profile-sync-daemon (6.25-1) unstable; urgency=low
 
   * New upstream release.
