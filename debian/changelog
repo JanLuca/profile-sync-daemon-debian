@@ -1,4 +1,11 @@
-profile-sync-daemon (6.25-2) unstable; urgency=medium
+profile-sync-daemon (6.26-1) unstable; urgency=medium
+
+  * New upstream release.
+    - debian/patches: Remove fix-bash-4.4-substitution.patch, merged upstream.
+
+ -- Jan Luca Naumann <j.naumann@fu-berlin.de>  Sun, 02 Oct 2016 21:55:49 +0200
+
+profile-sync-daemon (6.25-2) UNRELEASED; urgency=medium
 
   * debian/patches:
     - Add fix-bash-4.4-substitution.patch to fix
